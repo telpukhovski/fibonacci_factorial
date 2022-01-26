@@ -6,7 +6,6 @@ public class Factorial {
             result *= i;
         }
         return result;
-
     }
 
     public static int factorialWhile(int x) {

@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Fibonacci {
 
     public static int[] fibonacciWhile(int array) {
