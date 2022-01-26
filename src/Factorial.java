@@ -29,7 +29,7 @@ public class Factorial {
         return result;
     }
 
-    public static void chooseLoopType(int loopType, int x) {
+    public static int chooseLoopType(int loopType, int x) {
 
         switch (loopType) {
             case 1:
@@ -45,6 +45,7 @@ public class Factorial {
             default:
                 throw new IllegalStateException("Unexpected value: " + loopType);
         }
+        return loopType;
     }
 }
 
