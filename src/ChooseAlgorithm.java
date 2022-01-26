@@ -12,7 +12,6 @@ public class ChooseAlgorithm {
                 throw new IllegalStateException("Unexpected value: " + algorithmId);
         }
     }
-
     public static void main(String[] args) {
         chooseAlgorithm(1, 3, 5);
         chooseAlgorithm(2, 2, 7);
