@@ -12,10 +12,4 @@ public class ChooseAlgorithm {
         }
         return algorithmId;
     }
-
-    public static void main(String[] args) {
-        chooseAlgorithm(1, 3, 5);
-        chooseAlgorithm(2, 2, 7);
-        chooseAlgorithm(1, 1, 10);
-    }
 }
