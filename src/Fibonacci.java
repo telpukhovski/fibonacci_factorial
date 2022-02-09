@@ -1,6 +1,6 @@
-import java.util.Arrays;
-
 public class Fibonacci {
+    private Fibonacci() {
+    }
 
     public static int[] fibonacciWhile(int array) {
         int[] fibonacci = new int[array];
@@ -37,7 +37,7 @@ public class Fibonacci {
         return fibonacci;
     }
 
-    public static void chooseLoopType(int loopType, int n) {
+    public static int chooseLoopType(int loopType, int n) {
 
         switch (loopType) {
             case 1:
@@ -53,6 +53,6 @@ public class Fibonacci {
             default:
                 throw new IllegalStateException("Unexpected value: " + loopType);
         }
+        return loopType;
     }
 }
-

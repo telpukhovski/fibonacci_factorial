@@ -1,6 +1,5 @@
 public class ChooseAlgorithm {
-
-    public static void chooseAlgorithm(int algorithmId, int loopType, int n) {
+    public static int chooseAlgorithm(int algorithmId, int loopType, int n) {
         switch (algorithmId) {
             case 1:
                 Fibonacci.chooseLoopType(loopType, n);
@@ -11,12 +10,6 @@ public class ChooseAlgorithm {
             default:
                 throw new IllegalStateException("Unexpected value: " + algorithmId);
         }
-    }
-
-    public static void main(String[] args) {
-        chooseAlgorithm(1, 3, 5);
-        chooseAlgorithm(2, 2, 7);
-        chooseAlgorithm(1, 1, 10);
-
+        return algorithmId;
     }
 }
